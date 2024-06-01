@@ -284,7 +284,7 @@
 ### 🔝 Top Contributed Repo
 
 <div align=left>
-<img src="https://github-contributor-stats.vercel.app/api?username=kallbuloso&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="top repo"  />
+<img src="https://github-contributor-stats.vercel.app/api?username=kallbuloso&limit=4&theme=dark&combine_all_yearly_contributions=true" alt="top repo"  />
 </div>
 
 ###
