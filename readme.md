@@ -261,7 +261,7 @@
   <img width="12" />
   <img src="icons/litespeed.svg" height="40"  alt="litespeed logo"  />
   <img width="12" />
-  <img src="icons/webmin.svg" height="40"  alt="webmin logo"  />
+  <img src="icons/Webmin.svg" height="40"  alt="webmin logo"  />
 </div>
 
 ###
