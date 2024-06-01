@@ -16,11 +16,12 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kallbuloso&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117&locale=pt-br&hide_border=true&order=1" height="120" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kallbuloso&locale=pt-br&langs_count=12&card_width=420&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117&order=2" height="120" alt="languages graph"  />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=kallbuloso&theme=tokyonight&hide_border=true&locale=pt_BR&date_format=j%2Fn%5B%2FY%5D&background=0D1117&currStreakNum=00BFBF&stroke=00BFBF&fire=EB5454&sideNums=00BFBF&currStreakLabel=00BFBF&sideLabels=00BFBF&order=3" height="120" alt="streak graph"  />  
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kallbuloso&bg_color=0d1117&color=00bfbf&line=00bfbf&point=00bfbf&area=true&hide_border=true&order=4" height="150" alt="activity-graph graph"  />
-  <img align="center" src="https://github-profile-trophy.vercel.app?username=kallbuloso&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=5" height="150" alt="trophy graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=kallbuloso&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=false&count_private=true&disable_animations=false&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117&locale=pt-br&hide_border=true&order=1" height="180" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kallbuloso&locale=pt-br&langs_count=12&card_width=420&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117&order=2" height="180" alt="languages graph"  />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=kallbuloso&theme=tokyonight&hide_border=true&locale=pt_BR&date_format=j%2Fn%5B%2FY%5D&background=0D1117&currStreakNum=00BFBF&stroke=00BFBF&fire=EB5454&sideNums=00BFBF&currStreakLabel=00BFBF&sideLabels=00BFBF&order=3" height="180" alt="streak graph"  />  
+  <br clear="both">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kallbuloso&bg_color=0d1117&color=00bfbf&line=00bfbf&point=00bfbf&area=true&hide_border=true&order=4" height="180" alt="activity-graph graph"  />
+  <img src="https://github-profile-trophy.vercel.app?username=kallbuloso&radius=0&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=5" height="180" alt="trophy graph"  />
 </div>
 
 ###
