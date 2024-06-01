@@ -9,6 +9,105 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00BFBF&center=true&random=false&width=800&lines=Ol%C3%A1+%F0%9F%91%8B!+Sou+Amaral+Karl+(kallbuloso)%2C+do+Brazil%2C+SP.;Apaixonado+por+Laravel%2C+Vue+Js%2C+Vuetify+e+Inertia+Js!" alt="about me"  />
 </div>
 
+```javaScript
+/**
+ * Get Current Skill
+ * Returns information about the skills and experience.
+ * @returns {Object} Current Skill
+ */
+export const getCurrentSkill = () => {
+  const currentSkill = {
+    fullName: 'Claudinei de Carvalho',
+    nickName: 'Amaral Karl',
+    githubProfile: 'https://github.com/kallbuloso',
+    email: 'kallbuloso@gmail.com',
+    origin: 'São Paulo, Brazil',
+    skill: {
+      description: 'Full Stack Developer',
+      stack: {
+        backEnd: ['Node.js', 'PHP', 'Laravel 11', 'Inertia', 'Vite', 'RESTful API', 'WebSockets', 'and more...'],
+        frontEnd: ['HTML5', 'CSS3', 'SASS', 'Inertia.js', 'JavaScript', 'TypeScript', 'React', 'Vue.js', 'Vuetify', 'Quasar', 'Bootstrap', 'Tailwind CSS', 'and more...'],
+        database: ['MySQL', 'PostgreSQL', 'SQLite', 'Redis'],
+        devOps: ['Git', 'GitHub', 'GitLab', 'Docker', 'and more...'],
+        tools: ['VSCode', 'VStudio', 'Sublime Text', 'Postman', 'Notepad ++' 'Git Bash', 'PowerShell'],
+        cloud: ['AWS', 'Azure', 'Wasabi'],
+        apis: [
+          'Google Maps',
+          'Stripe',
+          'Twilio',
+          'SendGrid',
+          'Mercado Livre',
+          'Mercado Pago',
+          'OpenAI',
+          'WhatsApp Meta',
+          'OAuth',
+          'Google reCAPTCHA',
+          'Google Cloud Speech-to-Text',
+          'Google Cloud Text-to-Speech',
+          'Google Cloud Translation',
+          'Azure Translator Text',
+          'Azure Speech Service',
+          'Azure Text to Speech',
+          'Azure Speech to Text',
+          'Azure Translator Speech',
+          'and more...'
+        ],
+        server: ['Apache', 'Nginx'],
+        webHosts: {
+          vps: ['Contabo', 'Hetzner', 'HostGator', 'GoDaddy', 'Oracle', 'Hostinger'],
+          shared: ['HostGator', 'GoDaddy', 'Hostinger'],
+          dedicated: ['Contabo', 'Hetzner'],
+          storage: ['Wasabi', 'AWS', 'Azure']
+        },
+        os: ['Windows', 'Linux']
+      }
+    },
+    currentStudying: {
+      description: 'Currently studying',
+      stack: 'Python, Django, Flutter and more...'
+    },
+    oldSkills: {
+      description: 'Old skills',
+      stack: [
+        'Java',
+        'jQuery',
+        'Bootstrap',
+        'Materialize',
+        'Less',
+        'Gulp',
+        'Webpack',
+        'Babel',
+        'CodeIgniter',
+        'CakePHP',
+        'Zend Framework',
+        'Symfony',
+        'Laravel 5',
+        'Laravel 6',
+        'Laravel 7',
+        'Laravel 8',
+        'Laravel 9',
+        'Laravel 10',
+        'Angular 2',
+        'C Sharp',
+        'ASP.NET',
+        'Visual Basic 4',
+        'Visual Basic 5',
+        'Visual Basic 6',
+        'Visual Basic .net',
+        'Delphi'
+        'SQL Server',
+        'C++',
+        'C',
+      ]
+    },
+    experience: '26 years',
+    updatedAt: '2024'
+  }
+
+  return currentSkill
+}
+```
+
 ###
 
 <h2 align="left">📊 GitHub Stats: </h2>
