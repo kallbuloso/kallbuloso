@@ -239,6 +239,7 @@
   <img src="icons/contabo-logo.svg" height="40" alt="contabo logo"  />
   <img width="12" />
   <img src="icons/hostgator.svg" height="40"  alt="hostgator logo"  />
+  <img width="12" />
   <img src="icons/hostinger.svg" height="40"  alt="hostinger logo"  />
   <img width="12" />
   <img src="icons/hetzner-1.svg" height="40"  alt="hetzner logo"  />
