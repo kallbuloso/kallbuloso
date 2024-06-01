@@ -290,7 +290,7 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/github-contribution-grid-snake2.svg" alt="Snake animation" />
 
 ###
 
