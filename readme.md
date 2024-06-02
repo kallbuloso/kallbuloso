@@ -37,7 +37,6 @@ export const getCurrentSkill = () => {
           'Google Maps',
           'Stripe',
           'Twilio',
-          'SendGrid',
           'Mercado Livre',
           'Mercado Pago',
           'OpenAI',
@@ -73,7 +72,6 @@ export const getCurrentSkill = () => {
       stack: [
         'Java',
         'jQuery',
-        'Bootstrap',
         'Materialize',
         'Less',
         'Gulp',
@@ -90,7 +88,7 @@ export const getCurrentSkill = () => {
         'Laravel 9',
         'Laravel 10',
         'Angular 2',
-        'C Sharp',
+        'C#',
         'ASP.NET',
         'Visual Basic 4',
         'Visual Basic 5',
@@ -98,8 +96,7 @@ export const getCurrentSkill = () => {
         'Visual Basic .net',
         'Delphi'
         'SQL Server',
-        'C++',
-        'C',
+        'C++'
       ]
     },
     experience: '26 years',
@@ -128,20 +125,22 @@ return currentSkill
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=kallbuloso&locale=pt-br&langs_count=12&card_width=420&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117&order=2" />
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kallbuloso&locale=pt-br&langs_count=12&card_width=420&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&order=2" height="180" alt="languages graph"  />
   </picture>
+<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=kallbuloso&theme=tokyonight&hide_border=true&locale=pt_BR&date_format=j%2Fn%5B%2FY%5D&background=0D1117&currStreakNum=00BFBF&stroke=00BFBF&fire=EB5454&sideNums=00BFBF&currStreakLabel=00BFBF&sideLabels=00BFBF&order=3" />
     <img src="https://github-readme-streak-stats.herokuapp.com?user=kallbuloso&theme=tokyonight&hide_border=true&locale=pt_BR&date_format=j%2Fn%5B%2FY%5D&background=FFFFFF&currStreakNum=00BFBF&stroke=00BFBF&fire=EB5454&sideNums=00BFBF&currStreakLabel=00BFBF&sideLabels=00BFBF&order=3" height="180" alt="streak graph"  />
   </picture>
-  <br clear="both">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=kallbuloso&bg_color=0d1117&color=00bfbf&line=00bfbf&point=00bfbf&area=true&hide_border=true&order=4" />
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=kallbuloso&bg_color=FFFFFF&color=00bfbf&line=00bfbf&point=00bfbf&area=true&hide_border=true&order=4" height="180" alt="activity-graph graph"  />
   </picture>
-  <br clear="both">
+  </div>
+  <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app?username=kallbuloso&radius=0&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=true&no-frame=true&order=5" />
     <img src="https://github-profile-trophy.vercel.app?username=kallbuloso&radius=0&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=true&no-frame=true&order=5" height="180" alt="trophy graph"  />
   </picture>
+  </div>
 </div>
 
 ###
