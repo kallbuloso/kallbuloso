@@ -384,14 +384,15 @@ export const getCurrentSkill = () => {
 ### 🔝 Top Contributed Repo
 
 <div align=left>
-<img src="https://github-contributor-stats.vercel.app/api?username=kallbuloso&limit=4&theme=dark&combine_all_yearly_contributions=true" alt="top repo"  />
+<pictire>
+<img src="https://github-contributor-stats.vercel.app/api?username=kallbuloso&limit=4&hide_border=true&theme=dark&combine_all_yearly_contributions=true&no-frame=true&card_width=300&card_height=150" alt="top repo"  />
+</pictire>
 </div>
 
 ###
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake.svg">
   <img src="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake.svg" alt="Snake animation"/>
 </picture>
 
