@@ -392,10 +392,8 @@ export const getCurrentSkill = () => {
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake.svg">
+  <img src="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake.svg" alt="Snake animation"/>
 </picture>
-
-<img src="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake.svg" alt="Snake animation" />
 
 ###
 
