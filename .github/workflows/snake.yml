@@ -24,7 +24,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake-dark.svg?palette=github-dark&color_snake=teal
-            dist/snake.svg?palette=github-light  
+            dist/snake.svg?palette=github-light&color_snake=teal
 
 
       - name: push snake.svg to the output branch
