@@ -1,7 +1,5 @@
 <br clear="both">
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=008080&text=Amaral%20karl&section=header&desc=karll%20kallbuloso&descAlign=51&descAlignY=53&textBg=false&animation=twinkling&stroke=FFF&descSize=35&fontAlignY=26" width="100%" alt="header image"  />
-
-###
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=008080&text=Amaral%20karl&section=header&desc=karll%20kallbuloso&descAlign=51&descAlignY=53&textBg=false&animation=twinkling&stroke=FFF&descSize=35&fontAlignY=26" width="100%" alt="header image"  />
 
 # 💫 About me:
 
@@ -257,7 +255,10 @@ export const getCurrentSkill = () => {
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo"  />
   <img width="12" />
-  <img src="icons/microsoftsqlserver-svgrepo-com.svg" height="40" alt="sqlserver logo"  />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="/icons/sqlserver-dark.svg" />
+    <img src="icons/sqlserver.svg" height="40" alt="sqlserver logo"  />
+  </picture>
 </div>
 
 ###
@@ -383,13 +384,15 @@ export const getCurrentSkill = () => {
 
 ### 🔝 Top Contributed Repo
 
+<!--
 <div align=left>
 <pictire>
-<img src="https://github-contributor-stats.vercel.app/api?username=kallbuloso&limit=4&hide_border=true&theme=dark&combine_all_yearly_contributions=true&no-frame=true&card_width=300&card_height=150" alt="top repo"  />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-contributor-stats.vercel.app/api?username=kallbuloso&theme=dark&hide_border=true&no-frame=true" />
+<img src="https://github-contributor-stats.vercel.app/api?username=kallbuloso&limit=4&hide_border=true&theme=ligth&combine_all_yearly_contributions=true&no-frame=true" alt="top repo"  />
 </pictire>
 </div>
 
-###
+### -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake-dark.svg">
