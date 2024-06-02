@@ -113,17 +113,34 @@ export const getCurrentSkill = () => {
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kallbuloso&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=false&count_private=true&disable_animations=false&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117&locale=pt-br&hide_border=true&order=1" height="180" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kallbuloso&locale=pt-br&langs_count=12&card_width=420&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117&order=2" height="180" alt="languages graph"  />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=kallbuloso&theme=tokyonight&hide_border=true&locale=pt_BR&date_format=j%2Fn%5B%2FY%5D&background=0D1117&currStreakNum=00BFBF&stroke=00BFBF&fire=EB5454&sideNums=00BFBF&currStreakLabel=00BFBF&sideLabels=00BFBF&order=3" height="180" alt="streak graph"  />  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=kallbuloso&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=false&count_private=true&disable_animations=false&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117&locale=pt-br&hide_border=true&order=1" />
+    <img src="https://github-readme-stats.vercel.app/api?username=kallbuloso&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=false&count_private=true&disable_animations=false&title_color=00bfbf&text_color=00bfbf&locale=pt-br&hide_border=true&order=1" height="180" alt="stats graph"  />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=kallbuloso&locale=pt-br&langs_count=12&card_width=420&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117&order=2" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kallbuloso&locale=pt-br&langs_count=12&card_width=420&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&order=2" height="180" alt="languages graph"  />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=kallbuloso&theme=tokyonight&hide_border=true&locale=pt_BR&date_format=j%2Fn%5B%2FY%5D&background=0D1117&currStreakNum=00BFBF&stroke=00BFBF&fire=EB5454&sideNums=00BFBF&currStreakLabel=00BFBF&sideLabels=00BFBF&order=3" />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=kallbuloso&theme=tokyonight&hide_border=true&locale=pt_BR&date_format=j%2Fn%5B%2FY%5D&background=FFFFFF&currStreakNum=00BFBF&stroke=00BFBF&fire=EB5454&sideNums=00BFBF&currStreakLabel=00BFBF&sideLabels=00BFBF&order=3" height="180" alt="streak graph"  />
+  </picture>
   <br clear="both">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kallbuloso&bg_color=0d1117&color=00bfbf&line=00bfbf&point=00bfbf&area=true&hide_border=true&order=4" height="180" alt="activity-graph graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=kallbuloso&radius=0&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=5" height="180" alt="trophy graph"  />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=kallbuloso&bg_color=0d1117&color=00bfbf&line=00bfbf&point=00bfbf&area=true&hide_border=true&order=4" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=kallbuloso&&color=00bfbf&line=00bfbf&point=00bfbf&area=true&hide_border=true&order=4" height="180" alt="activity-graph graph"  />
+  </picture>
+  <br clear="both">
+  <picture>
+    <!-- <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app?username=kallbuloso&radius=0&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=true&no-frame=true&order=5" /> -->
+    <img src="https://github-profile-trophy.vercel.app?username=kallbuloso&radius=0&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=true&no-frame=true&order=5" height="180" alt="trophy graph"  />
+  </picture>
+  <!-- <img src="https://github-profile-trophy.vercel.app?username=kallbuloso&radius=0&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=5" height="180" alt="trophy graph"  /> -->
 </div>
 
 ###
 
-<h2 align="left">🚀 Langs, Scripts, Plugins, Softwares, Tecnologies and Frameworks</h2>
+<h2 align="left">🚀 Langs, Scripts, Plugins, Softwares, Tecnologies and Frameworks:</h2>
 
 ###
 
@@ -248,7 +265,7 @@ export const getCurrentSkill = () => {
 
 ###
 
-<h2 align="left">🌐 Databases</h2>
+<h2 align="left">🌐 Databases:</h2>
 
 ###
 
@@ -291,7 +308,7 @@ export const getCurrentSkill = () => {
 
 ###
 
-<h2 align="left">🌐 CMS's</h2>
+<h2 align="left">🌐 CMS's:</h2>
 
 ###
 
@@ -388,23 +405,16 @@ export const getCurrentSkill = () => {
   <a href="https://likedin.com/kallbuloso" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="47" height="35" alt="linkedin logo"  />
   </a>
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/codesandbox/default.svg" width="47" height="35" alt="codesandbox logo"  />
   <a href="kallbuloso@gmail.com" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="47" height="35" alt="gmail logo"  />
   </a>
 </div>
 
-### 🔝 Top Contributed Repo
+###
 
-<!--
-<div align=left>
-<pictire>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-contributor-stats.vercel.app/api?username=kallbuloso&theme=dark&hide_border=true&no-frame=true" />
-<img src="https://github-contributor-stats.vercel.app/api?username=kallbuloso&limit=4&hide_border=true&theme=ligth&combine_all_yearly_contributions=true&no-frame=true" alt="top repo"  />
-</pictire>
-</div>
+<h2 align="left">🔝 Contributed Repo:</h2>
 
-### -->
+###
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake-dark.svg">
