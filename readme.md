@@ -432,4 +432,3 @@ return currentSkill
 
 <h2 align="left">📊 Views:</h2>
 <img align="right" src="https://profile-counter.glitch.me/kallbuloso/count.svg?"  />
-```
