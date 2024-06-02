@@ -7,7 +7,11 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00BFBF&center=true&random=false&width=800&lines=Ol%C3%A1+%F0%9F%91%8B!+Sou+Amaral+Karl+(kallbuloso)%2C+do+Brazil%2C+SP.;Apaixonado+por+Laravel%2C+Vue+Js%2C+Vuetify+e+Inertia+Js!" alt="about me"  />
 </div>
 
-```javaScript
+<details>
+  <summary>📜 My Skills:</summary>
+  <br>
+
+```js
 /**
  * Get Current Skill
  * Returns information about the skills and experience.
@@ -102,9 +106,12 @@ export const getCurrentSkill = () => {
     updatedAt: '2024'
   }
 
-  return currentSkill
+return currentSkill
 }
+
 ```
+
+</details>
 
 ###
 
@@ -217,7 +224,7 @@ export const getCurrentSkill = () => {
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" height="40" alt="yarn logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" height="40" alt="composer logo"  />
-  <img width="12" />    
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="40" alt="arduino logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
@@ -284,7 +291,7 @@ export const getCurrentSkill = () => {
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo"  />
   <img width="12" />
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="/icons/sqlserver-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="icons/sqlserver-dark.svg" />
     <img src="icons/sqlserver.svg" height="40" alt="sqlserver logo"  />
   </picture>
 </div>
@@ -426,3 +433,4 @@ export const getCurrentSkill = () => {
 
 <h2 align="left">📊 Views:</h2>
 <img align="right" src="https://profile-counter.glitch.me/kallbuloso/count.svg?"  />
+```
