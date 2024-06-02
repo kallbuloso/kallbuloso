@@ -149,7 +149,10 @@ export const getCurrentSkill = () => {
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/less/less-plain-wordmark.svg" height="40" alt="less logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" height="40" alt="markdown logo"  />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="icons/markdown-dark.svg" />
+    <img src="icons/markdown.svg" height="40" alt="markdown logo"  />
+  </picture>
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo"  />
   <img width="12" />
@@ -205,13 +208,19 @@ export const getCurrentSkill = () => {
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="icons/github-dark.svg" />
+    <img src="icons/github.svg" height="40" alt="github logo"  />
+  </picture>
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="40" alt="gitlab logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" height="40" alt="raspberrypi logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original-wordmark.svg" height="40" alt="ssh logo"  />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="icons/ssh-dark.svg" />
+    <img src="icons/ssh.svg" height="40" alt="ssh logo"  />
+  </picture>
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/filezilla/filezilla-plain.svg" height="40" alt="filezilla logo"  />
   <img width="12" />
@@ -227,7 +236,10 @@ export const getCurrentSkill = () => {
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="40" alt="canva logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codepen/codepen-original.svg" height="40" alt="codepen logo"  />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="icons/codepen-dark.svg" />
+    <img src="icons/codepen.svg" height="40" alt="codepen logo"  />
+  </picture>
   <img width="12" />
   <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/Pinia-Dark.svg" height="40" alt="codepen logo"  />
   <img width="12" />
