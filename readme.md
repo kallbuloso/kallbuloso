@@ -128,14 +128,13 @@ export const getCurrentSkill = () => {
   <br clear="both">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=kallbuloso&bg_color=0d1117&color=00bfbf&line=00bfbf&point=00bfbf&area=true&hide_border=true&order=4" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=kallbuloso&&color=00bfbf&line=00bfbf&point=00bfbf&area=true&hide_border=true&order=4" height="180" alt="activity-graph graph"  />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=kallbuloso&bg_color=FFFFFF&color=00bfbf&line=00bfbf&point=00bfbf&area=true&hide_border=true&order=4" height="180" alt="activity-graph graph"  />
   </picture>
   <br clear="both">
   <picture>
-    <!-- <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app?username=kallbuloso&radius=0&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=true&no-frame=true&order=5" /> -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app?username=kallbuloso&radius=0&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=true&no-frame=true&order=5" />
     <img src="https://github-profile-trophy.vercel.app?username=kallbuloso&radius=0&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=true&no-frame=true&order=5" height="180" alt="trophy graph"  />
   </picture>
-  <!-- <img src="https://github-profile-trophy.vercel.app?username=kallbuloso&radius=0&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=5" height="180" alt="trophy graph"  /> -->
 </div>
 
 ###
