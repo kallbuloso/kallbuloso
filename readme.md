@@ -12,7 +12,7 @@ Construo <strong>SaaS multi-tenant</strong> e <strong>automações com IA</stron
   <img alt="Vuetify" src="https://img.shields.io/badge/Vuetify-3-1867C0?logo=vuetify&logoColor=white">
   <img alt="Inertia" src="https://img.shields.io/badge/Inertia-2-9553e9?logo=laravel&logoColor=white">
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-16-336791?logo=postgresql&logoColor=white">
-  <img alt="GraphRAG" src="https://img.shields.io/badge/GraphRAG-Microsoft-111?logo=microsoft&logoColor=white">
+  <img alt="GraphRAG" src="https://img.shields.io/badge/GraphRAG-Neo4j-111?logo=neo4j&logoColor=white">
   <img alt="Docker" src="https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white">
   <img alt="n8n" src="https://img.shields.io/badge/n8n-Orchestrations-fe2c55?logo=n8n&logoColor=white">
   <img alt="Chatwoot" src="https://img.shields.io/badge/Chatwoot-CX-1F93FF?logo=chatwoot&logoColor=white">
