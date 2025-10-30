@@ -72,8 +72,8 @@ export const amaral = {
   stack: {
     backend: ["PHP", "Laravel 12", "REST", "WebSockets"],
     frontend: ["Vue 3", "Vuetify 3", "Inertia 2", "Vite", "Pinia", "TypeScript"],
-    database: ["PostgreSQL", "SQLite", "Redis", "pgvector"],
-    devops: ["Docker", "Traefik", "Easypanel", "S3/Wasabi", "Cloudflare"],
+    database: ["PostgreSQL", "SQLite", "Redis", "pgvector", "etc..."],
+    devops: ["Docker", "Traefik", "Easypanel", "S3/Wasabi/AWS/MinIO", "Cloudflare"],
     automation_ai: ["n8n", "OpenAI", "RAG", "GraphRAG"],
     integrations: ["Mercado Pago", "Mercado Livre", "Google APIs", "Chatwoot"],
   },
