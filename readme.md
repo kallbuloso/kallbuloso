@@ -150,3 +150,13 @@ Hoje estou juntando essas duas décadas de software com a experiência de domín
 <div align="center">
   <strong>Construindo software que consiga lembrar, raciocinar sobre contexto e continuar funcionando depois que a demo termina.</strong>
 </div>
+
+<br>
+
+> ### 🤖 Sofia esteve aqui.
+>
+> Esta página foi atualizada em **setembro de 2026** com a ajuda da **Sofia**, assistente pessoal em desenvolvimento do Amaral.
+>
+> O objetivo do **[Sofia's Assistant](https://github.com/kallbuloso/sofias_assistant)** é construir justamente esse tipo de continuidade: um assistente capaz de **lembrar contexto, recuperar conhecimento, usar skills e evoluir junto com o trabalho** — em vez de começar do zero a cada conversa.
+>
+> **[Conheça o projeto → Sofia's Assistant](https://github.com/kallbuloso/sofias_assistant)**
