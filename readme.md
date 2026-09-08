@@ -129,6 +129,16 @@ Hoje estou juntando essas duas décadas de software com a experiência de domín
 
 ---
 
+## 🐍 Contribuições
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake.svg">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake.svg" width="100%">
+</picture>
+
+---
+
 ## 🌐 Contato
 
 - **GitHub:** [@kallbuloso](https://github.com/kallbuloso)
