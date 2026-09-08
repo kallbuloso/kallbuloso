@@ -1,94 +1,162 @@
 <br clear="both">
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=008080&text=Amaral%20karl&section=header&desc=kallbuloso&descAlign=51&descAlignY=53&textBg=false&animation=twinkling&stroke=FFF&descSize=35&fontAlignY=26" width="100%" alt="header image"  />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=008080&text=Amaral&section=header&desc=Software%20Architect%20%E2%80%A2%20AI-native%20SaaS%20%E2%80%A2%20Agentic%20Systems&descAlign=50&descAlignY=55&textBg=false&animation=twinkling&stroke=FFF&descSize=22&fontAlignY=28" width="100%" alt="Amaral — Software Architect, AI-native SaaS and Agentic Systems" />
 
-<h1 align="left">👋 Olá! Eu sou o Amaral (kallbuloso)</h1>
+<h1 align="left">👋 Olá, eu sou o Amaral <sub>(kallbuloso)</sub></h1>
 
-Full-Stack focado em <strong>Laravel + Vue 3 + Vuetify + Inertia.js</strong>, com ~20+ anos de desenvolvimento e ~30 anos de eletrônica.  
-Construo <strong>SaaS multi-tenant</strong> e <strong>automações com IA</strong> (n8n, LLMs, <strong>RAG/GraphRAG</strong>) para PMEs e comércios locais.
+Sou desenvolvedor de software e arquiteto de sistemas, com cerca de **20 anos construindo software** e uma base de aproximadamente **30 anos em eletrônica**.
+
+Hoje meu foco está em **software AI-native**: memória semântica, knowledge graphs, sistemas agênticos, automações e SaaS verticais construídos a partir de problemas reais de negócio — não apenas CRUDs com um botão de IA colado depois.
 
 <p>
-  <img alt="Laravel" src="https://img.shields.io/badge/Laravel-12-FF2D20?logo=laravel&logoColor=white">
-  <img alt="Vue" src="https://img.shields.io/badge/Vue-3-42B883?logo=vuedotjs&logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
+  <img alt="Laravel" src="https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white">
+  <img alt="Vue.js" src="https://img.shields.io/badge/Vue.js-3-42B883?logo=vuedotjs&logoColor=white">
   <img alt="Vuetify" src="https://img.shields.io/badge/Vuetify-3-1867C0?logo=vuetify&logoColor=white">
-  <img alt="Inertia" src="https://img.shields.io/badge/Inertia-2-9553e9?logo=laravel&logoColor=white">
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-16-336791?logo=postgresql&logoColor=white">
-  <img alt="GraphRAG" src="https://img.shields.io/badge/GraphRAG-Neo4j-111?logo=neo4j&logoColor=white">
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white">
-  <img alt="n8n" src="https://img.shields.io/badge/n8n-Orchestrations-fe2c55?logo=n8n&logoColor=white">
-  <img alt="Chatwoot" src="https://img.shields.io/badge/Chatwoot-CX-1F93FF?logo=chatwoot&logoColor=white">
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white">
+  <img alt="pgvector" src="https://img.shields.io/badge/pgvector-semantic%20search-336791">
+  <img alt="Neo4j" src="https://img.shields.io/badge/Neo4j-knowledge%20graph-4581C3?logo=neo4j&logoColor=white">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white">
 </p>
 
 ---
 
-## 🚀 Destaques
+## 🚀 O que estou construindo agora
 
-- **Eletrolyder SaaS** — Assistências técnicas: OS, estoque, marketplace, base técnica (RAG/GraphRAG).  
-  *Stack:* Laravel 12, Inertia 2, Vue 3, Vuetify 3, Postgres, pgvector, S3.
+### 🧠 [Sofias Memory](https://github.com/kallbuloso/sofias_memory)
 
-- **e-burguer** — Gestão de hamburguerias com atendimento humanizado (LLMs) e integrações (WhatsApp/Meta, Mercado Pago).  
-  *Stack:* Laravel + Vue 3 + Vuetify + Inertia; impressão na cozinha; fidelidade.
+Uma camada de **memória semântica e knowledge graph** para aplicações e sistemas agênticos.
 
-- **Sofias Tech (Automations)** — n8n + agentes orquestrados (Crew-style) para Google/Meli/Chatwoot/RAG.  
-  *Stack:* n8n, Docker, OpenAI, Postgres/Redis, Webhooks.
+O projeto nasceu inspirado por ideias do ecossistema Cognee, mas evoluiu para uma arquitetura própria, com **PostgreSQL + pgvector como fonte autoritativa**, **Neo4j como projeção reconstruível**, pipelines duráveis, recuperação híbrida, GraphRAG, provenance e mecanismos explícitos de consistência e recovery.
 
-- **Curta.se** — Portal criativo/motivacional com experimentos de conteúdo gerado por IA.
+**Estado atual: v0.4.0**
+
+- ingestão de texto, arquivos e URLs;
+- Remember, Cognify, Recall, Improve e Forget;
+- busca vetorial, lexical, híbrida e graph-grounded RAG;
+- datasets e runs duráveis com retry/cancel;
+- armazenamento filesystem ou S3-compatible;
+- **Sessions** e `SessionEntries` como contexto temporal durável;
+- **Skills** versionadas como memória procedural, com resolução semântica e interoperabilidade `SKILL.md`.
+
+> Para mim, memória de IA não é um campo `conversation_history` maior. É infraestrutura.
+
+### 🤖 [Sofia's Assistant](https://github.com/kallbuloso/sofias_assistant)
+
+Um **assistente pessoal local-first e agêntico**, atualmente em desenvolvimento.
+
+A intenção é usar o Sofias Memory como camada transversal de memória, conhecimento e contexto, enquanto o Assistant concentra **agents, tools, sessions, orchestration, execução e evolução do comportamento**.
+
+O projeto está sendo construído a partir de PRD + ADRs + backlog técnico, com arquitetura antes de improvisação — porque “vamos conectar alguns agentes e ver o que acontece” funciona muito bem até começar a acontecer.
+
+### 🛠️ Sofias Lyder
+
+Um **SaaS vertical para assistências técnicas**, em desenvolvimento privado, baseado em décadas de experiência prática no domínio.
+
+A proposta não é um ERP genérico: o produto modela o fluxo real da oficina — entrada do equipamento, diagnóstico, orçamento quando necessário, autorização, execução, estoque, venda, comunicação e entrega.
+
+O projeto também funciona como campo de aplicação para a infraestrutura de IA e memória que estou desenvolvendo no ecossistema Sofias.
+
+### 🧩 SofiasTech
+
+É a identidade sob a qual concentro meus projetos de **software com IA, automações, agentes e SaaS**.
+
+A direção é construir produtos nos quais IA faça parte da arquitetura e do fluxo operacional — não seja apenas uma integração decorativa com um LLM.
 
 ---
 
-## 🧰 Stack principal
+## 🧭 Como penso arquitetura
 
-- **Backend:** PHP (Laravel 12), Eloquent, Queues/Jobs/Events, Policies, Mail/Notifications, WebSockets.  
-- **Frontend:** Vue 3 (Composition API), Vuetify 3, Inertia 2, Vite, Pinia (persist), Ziggy.  
-- **Banco:** PostgreSQL (prod), SQLite (dev), Redis; **Vetores:** pgvector.  
-- **IA & RAG:** OpenAI, Dify/Langflow quando útil, **GraphRAG** (knowledge graphs para contexto profundo).  
-- **Infra/DevOps:** Docker, Traefik/Portainer, Easypanel, S3/Wasabi, Cloudflare, CI/CD GitHub.  
-- **CX/Atendimento:** Chatwoot (Sofias Tech), integrações WhatsApp/Meta.  
-- **Pagamentos/Marketplace:** Mercado Pago/Mercado Livre, Stripe quando aplicável.  
-- **APIs usuais:** Google (Drive/Gmail/Calendar/Maps), IBGE, OAuth2, Webhooks.
+Alguns princípios aparecem repetidamente no que construo:
 
----
-
-## 🧭 Princípios de arquitetura
-
-- **Multi-tenant first** (`tenant_id`, permissões, rate limits por tenant).  
-- **Naming em inglês** para tabelas/colunas (ex.: `service_orders`, `status_steps`, `client_id`).  
-- **Statuses/steps genéricos** via morphs/pivots para reuso cross-módulo.  
-- **Observabilidade** (logs estruturados, tracing mínimo, métricas pragmáticas).  
-- **DX acima de tudo**: seeders úteis, make-commands, doc viva.  
-- **Automação > Repetição**: flows n8n para import/sync/notificações.
+- **Fonte de verdade explícita:** em sistemas cognitivos, dados autoritativos precisam estar claramente separados de projeções reconstruíveis.
+- **Durabilidade antes do happy path:** idempotência, retry, recovery, concorrência e observabilidade são parte da feature.
+- **IA com provenance:** respostas são melhores quando é possível explicar de onde o contexto veio.
+- **Graph quando há motivo:** knowledge graph é ferramenta de modelagem e recuperação, não decoração arquitetural.
+- **SaaS vertical antes de SaaS genérico:** conhecimento de domínio vale mais que uma tela CRUD perfeitamente alinhada.
+- **Automação acima de repetição:** se uma rotina é previsível e frequente, provavelmente deveria ser automatizada.
+- **Local-first / self-hosted quando fizer sentido:** controle de dados e infraestrutura pode ser uma vantagem, não um inconveniente.
+- **Documentação como parte da implementação:** PRDs, ADRs, contratos e backlogs ajudam a manter a arquitetura coerente enquanto o produto cresce.
 
 ---
 
-## 📦 “Skills como código” (snapshot 2025)
+## 🧰 Stack que uso com mais frequência
 
-```ts
-export const amaral = {
-  fullName: "Claudinei de Carvalho",
-  nickName: "Amaral Karl",
-  github: "https://github.com/kallbuloso",
-  email: "mailto:kallbuloso@gmail.com",
-  origin: "São Paulo, Brazil",
-  role: "Full-Stack Developer • SaaS Architect",
-  stack: {
-    backend: ["PHP", "Laravel 12", "REST", "WebSockets"],
-    frontend: ["Vue 3", "Vuetify 3", "Inertia 2", "Vite", "Pinia", "TypeScript"],
-    database: ["PostgreSQL", "SQLite", "Redis", "pgvector", "etc..."],
-    devops: ["Docker", "Traefik", "Easypanel", "S3/Wasabi/AWS/MinIO", "Cloudflare"],
-    automation_ai: ["n8n", "OpenAI", "RAG", "GraphRAG"],
-    integrations: ["Mercado Pago", "Mercado Livre", "Google APIs", "Chatwoot"],
-  },
-  experience: { electronics: "≈30y", software: "≈20y" },
-  updatedAt: "2025-10-29",
-};
-```
+| Camada | Tecnologias |
+|---|---|
+| **Backend** | Python, FastAPI, PHP, Laravel, REST APIs, workers e pipelines assíncronos |
+| **Frontend** | Vue 3, Composition API, Inertia.js, Vuetify 3, Vite, Pinia |
+| **Dados** | PostgreSQL, pgvector, Neo4j, Redis, SQLite |
+| **IA** | LLMs OpenAI-compatible, embeddings, RAG, GraphRAG, semantic memory, agentes |
+| **Automação** | n8n, webhooks, Chatwoot, Evolution API |
+| **Infra** | Docker, WSL2, Portainer, EasyPanel, S3-compatible storage, Cloudflare |
+| **Integrações** | Google APIs, WhatsApp, Mercado Livre, Mercado Pago, OAuth2 |
+
+Tecnologia para mim é meio, não identidade. Laravel continua excelente onde Laravel é a melhor resposta; Python entrou com força porque sistemas cognitivos e agênticos pedem outro conjunto de ferramentas.
+
 ---
-📊 GitHub Stats
-<div align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=kallbuloso&show_icons=true&include_all_commits=false&count_private=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117&hide_border=true&locale=pt-br" /> <img src="https://github-readme-stats.vercel.app/api?username=kallbuloso&show_icons=true&include_all_commits=false&count_private=true&hide_border=true&locale=pt-br" height="180" alt="stats graph" /> </picture> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=kallbuloso&locale=pt-br&langs_count=10&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kallbuloso&locale=pt-br&langs_count=10&layout=compact&hide_border=true" height="180" alt="languages graph" /> </picture> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=kallbuloso&theme=tokyonight&hide_border=true&locale=pt_BR&date_format=j%2Fn%5B%2FY%5D&background=0D1117&currStreakNum=00BFBF&stroke=00BFBF&fire=EB5454&sideNums=00BFBF&currStreakLabel=00BFBF&sideLabels=00BFBF" /> <img src="https://github-readme-streak-stats.herokuapp.com?user=kallbuloso&theme=tokyonight&hide_border=true&locale=pt_BR&date_format=j%2Fn%5B%2FY%5D" height="180" alt="streak graph" /> </picture> </div>
-🧪 Tecnologias & Ferramentas (seleção)
-<div align="left"> <!-- FE --> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="32" alt="javascript" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="32" alt="typescript" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="32" alt="vue" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuetify/vuetify-original.svg" height="32" alt="vuetify" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="32" alt="html5" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="32" alt="css3" /> <!-- Backend --> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="32" alt="php" /> <!-- Laravel (corrigido) --> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="32" alt="laravel" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="32" alt="nodejs" /> <!-- DB --> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="32" alt="postgresql" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="32" alt="redis" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="32" alt="sqlite" /> <!-- DevOps --> <!-- Nginx (corrigido) --> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="32" alt="nginx" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" height="32" alt="apache" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="32" alt="docker" /> <!-- IA / RAG / CX --> <!-- OpenAI (corrigido) --> <img src="https://cdn.simpleicons.org/openai" height="32" alt="openai" /> <!-- Chatwoot (corrigido) --> <img src="https://cdn.simpleicons.org/chatwoot/1F93FF" height="32" alt="chatwoot" /> </div>
-🌐 Social & Contato
 
-LinkedIn: <a href="https://www.linkedin.com/in/claudineicarvalho" target="_blank">Claudinei</a>
+## 🔬 Interesses técnicos atuais
 
-Email: <a href="mailto:kallbuloso@gmail.com">kallbuloso@gmail.com
-</a>
+- arquiteturas de memória para agentes;
+- memória episódica, semântica e procedural;
+- agent management e orchestration;
+- skills reutilizáveis e progressive disclosure;
+- context engineering;
+- knowledge graphs e GraphRAG;
+- pipelines duráveis e sistemas recuperáveis;
+- IA aplicada a SaaS vertical;
+- integração entre aplicações Laravel e serviços Python;
+- infraestrutura self-hosted para aplicações com IA.
+
+---
+
+## ⚡ Um pouco da trajetória
+
+Minha formação prática veio primeiro da **eletrônica**: diagnóstico, reparo e resolução de problemas reais, onde a explicação bonita perde imediatamente para o circuito que continua queimando fusível.
+
+Essa mentalidade foi comigo para o software. Ao longo dos anos trabalhei com aplicações comerciais, automações, integrações, sistemas para assistências técnicas e diferentes gerações de aplicações Laravel/Vue.
+
+Hoje estou juntando essas duas décadas de software com a experiência de domínio acumulada para construir uma nova geração de produtos centrados em **IA, memória e agentes**.
+
+---
+
+## 📌 Alguns repositórios
+
+- 🧠 **[sofias_memory](https://github.com/kallbuloso/sofias_memory)** — memória semântica, knowledge graph, RAG, Sessions e Skills.
+- 🤖 **[sofias_assistant](https://github.com/kallbuloso/sofias_assistant)** — fundação do assistente pessoal agêntico local-first.
+- 🔧 **[eletrolyder_new](https://github.com/kallbuloso/eletrolyder_new)** — experiência acumulada em software para assistências técnicas.
+- 🐳 **[compose-easypanel](https://github.com/kallbuloso/compose-easypanel)** — stacks e experimentos de infraestrutura self-hosted.
+
+---
+
+## 🐍 Contribuições
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake.svg">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/kallbuloso/kallbuloso/output/snake.svg" width="100%">
+</picture>
+
+---
+
+## 🌐 Contato
+
+- **GitHub:** [@kallbuloso](https://github.com/kallbuloso)
+- **LinkedIn:** [Claudinei de Carvalho](https://www.linkedin.com/in/claudineicarvalho)
+- **Email:** [kallbuloso@gmail.com](mailto:kallbuloso@gmail.com)
+
+---
+
+<div align="center">
+  <strong>Construindo software que consiga lembrar, raciocinar sobre contexto e continuar funcionando depois que a demo termina.</strong>
+</div>
+
+<br>
+
+> ### 🤖 Sofia esteve aqui.
+>
+> Esta página foi atualizada em **setembro de 2026** com a ajuda da **Sofia**, assistente pessoal em desenvolvimento do Amaral.
+>
+> O objetivo do **[Sofia's Assistant](https://github.com/kallbuloso/sofias_assistant)** é construir justamente esse tipo de continuidade: um assistente capaz de **lembrar contexto, recuperar conhecimento, usar skills e evoluir junto com o trabalho** — em vez de começar do zero a cada conversa.
+>
+> **[Conheça o projeto → Sofia's Assistant](https://github.com/kallbuloso/sofias_assistant)**
